@@ -7,7 +7,7 @@ head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
     apple_touch_icon: "/img/favicon.png"
-    keywords:
+    keywords: "Chacha, a full inspiration front-end engineer, iOS developer & UI designer!"
 
 # Jump Links Settings
 url:
@@ -26,7 +26,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "Hey, nice to meet you"
     theme_color: "#039BE5"
     theme_sub_color: "#00BCD4"
     hyperlink_color: "#039BE5"
@@ -86,20 +86,20 @@ sns:
     twitter: "https://twitter.com/chachaxw"
     facebook: "https://www.facebook.com/profile.php?id=100012895657011"
     googleplus: "https://www.plus.google.com/u/0/108375887714638965235"
-    weibo: ""
+    weibo: "https://weibo.com/1777206425"
     instagram: "https://www.instagram.com/wei3580"
     tumblr: "https://www.tumblr.com/blog/chachaxw"
     github: "https://github.com/chachaxw"
 
 # Sidebar User Dropdown
 dropdown:
-    Email Me:
-        link: "867571123@email.com"
+    联系我:
+        link: "mailto: 867571123@qq.com"
         icon: email
 
 # Pages Menu
 pages:
-    #about: "/about"
+    关于: "/about"
 
 
 
@@ -111,7 +111,7 @@ pages:
 # Available value:
 #     duoshuo | disqus
 comment:
-    use:
+    use: duoshuo
     shortname:
     duoshuo_thread_key: title
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
@@ -125,9 +125,9 @@ search:
 
 # Leancloud Views
 leancloud:
-    enable: false
-    app_id: #你的app_id
-    app_key: #你的app_key
+    enable: true
+    app_id: "rCSIUFjk4R2aJ14PG9lrp2FK-gzGzoHsz"
+    app_key: "zwT9sHyTQ8zkvYLiNj2Eo6Gx"
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
 
 # Busuanzi 不蒜子 Views

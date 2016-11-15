@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://chachaxw.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,9 +68,9 @@ theme: hexo-material
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  host: 121.42.48.196
+  type: rsync
+  host: 106.75.148.97
   user: root
-  root: /alidata/www/chacha/
+  root: /data/www/chacha/
   port: 22
   delete: false
