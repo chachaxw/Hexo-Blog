@@ -22,16 +22,16 @@
     </li>
 
     <!-- I'm Feeling Lucky -->
-<!--
-    <li class="dropdown">
-        <a href="" target="_self">
-            <i class="material-icons sidebar-material-icons">explore</i>
-             <%= __("sidebar.imlucky") %>
-        </a>
-    </li>
--->
+    <% for (var i in theme.sidebar){ %>
+      <li class="dropdown">
+          <a href="<%= theme.sidebar[i].link %>" target="_self" title="<%= i %>">
+              <i class="material-icons sidebar-material-icons"><%= theme.sidebar[i].icon %></i>
+               <%= i %>
+          </a>
+      </li>
+    <% } %>
 
-	
+
     <!-- Archives  -->
     <li class="dropdown">
         <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
@@ -56,13 +56,13 @@
 
 
     <!-- Pages  -->
-	<% for (var i in theme.pages){ %>
-		<li>
-			<a href="<%= theme.pages[i] %>" title="<%= i %>">
-				<%= i %>
-			</a>
-		</li>
-	<% } %>
+  	<% for (var i in theme.pages){ %>
+  		<li>
+  			<a href="<%= theme.pages[i] %>" title="<%= i %>">
+  				<%= i %>
+  			</a>
+  		</li>
+  	<% } %>
 
     <!-- Article Numebr  -->
     <li>

@@ -91,6 +91,15 @@ sns:
     tumblr: "https://www.tumblr.com/blog/chachaxw"
     github: "https://github.com/chachaxw"
 
+# Sidebar
+sidebar:
+    开发:
+        link: "/develop"
+        icon: code
+    设计:
+        link: "/design"
+        icon: explore
+
 # Sidebar User Dropdown
 dropdown:
     联系我:
@@ -99,7 +108,7 @@ dropdown:
 
 # Pages Menu
 pages:
-    关于: "/about"
+    # 关于: "/about"
 
 
 
